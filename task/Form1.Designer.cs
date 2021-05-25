@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.compl = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Task = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descr = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.compl = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Task = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descr = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,28 +55,8 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(784, 418);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.check);
             this.dataGridView1.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_OnCellMouseUp);
-            // 
-            // compl
-            // 
-            this.compl.FillWeight = 25F;
-            this.compl.HeaderText = "Выполнено";
-            this.compl.Name = "compl";
-            // 
-            // Task
-            // 
-            this.Task.HeaderText = "Задача";
-            this.Task.Name = "Task";
-            this.Task.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.Task.Width = 200;
-            // 
-            // descr
-            // 
-            this.descr.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.descr.HeaderText = "Описание";
-            this.descr.Name = "descr";
-            this.descr.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.dataGridView1.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.check);
             // 
             // button1
             // 
@@ -121,6 +101,28 @@
             this.button4.Text = "Clear";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // compl
+            // 
+            this.compl.FillWeight = 25F;
+            this.compl.HeaderText = "Выполнено";
+            this.compl.Name = "compl";
+            // 
+            // Task
+            // 
+            this.Task.HeaderText = "Задача";
+            this.Task.Name = "Task";
+            this.Task.ReadOnly = true;
+            this.Task.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.Task.Width = 200;
+            // 
+            // descr
+            // 
+            this.descr.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.descr.HeaderText = "Описание";
+            this.descr.Name = "descr";
+            this.descr.ReadOnly = true;
+            this.descr.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
             // 
             // Form1
             // 
