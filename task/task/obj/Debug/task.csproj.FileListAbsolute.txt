@@ -1,0 +1,11 @@
+C:\TestTask\task\task\bin\Debug\task.exe.config
+C:\TestTask\task\task\bin\Debug\task.exe
+C:\TestTask\task\task\bin\Debug\task.pdb
+C:\TestTask\task\task\obj\Debug\task.csprojResolveAssemblyReference.cache
+C:\TestTask\task\task\obj\Debug\task.Form1.resources
+C:\TestTask\task\task\obj\Debug\task.Form2.resources
+C:\TestTask\task\task\obj\Debug\task.Properties.Resources.resources
+C:\TestTask\task\task\obj\Debug\task.csproj.GenerateResource.cache
+C:\TestTask\task\task\obj\Debug\task.csproj.CoreCompileInputs.cache
+C:\TestTask\task\task\obj\Debug\task.exe
+C:\TestTask\task\task\obj\Debug\task.pdb
